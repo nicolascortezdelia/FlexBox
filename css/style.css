@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*selector de etiqueta*/
+
+
+header{
+    background-image: linear-gradient( 135deg, #43CBFF 10%, #9708CC 100%);
+    color: whitesmoke;
+    text-align: center;
+    padding: 50px 0px;
+
+}
+
+/*https://cssgradient.io/*/
+
+footer{
+    background-image: linear-gradient( 135deg, #43CBFF 10%, #9708CC 100%);
+    color: white;
+    padding: 20px;
+    text-align: center;
+
+}
+
+main{
+    margin: 30px;
+
+
+}
+
+h2{
+    margin: 10px 0px;
+}
+
+/*Selector de clase del article*/
+
+.contenedorPadre{
+    display:flex;
+
+
+}
+
+.contenedorReverse{
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+
+.contenedorColumna{
+    display: flex;
+    flex-direction: column;
+}
+
+.contenedorWrap{
+    display: flex;
+    flex-wrap: wrap;
+    background: tomato;
+    justify-content: space-around;
+
+}
+
+.contenedorCentrado{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    background: tomato;
+
+    height: 500px;
+
+    align-content: center;
+
+
+
+
+
+}
+
+.contenedorBetween{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 100px; 
+    justify-content: space-between;
+    align-items: center;
+    background: tomato;
+}
+
+.ItemsCentrados{
+    display: flex;
+    flex-direction: row;
+    height: 80px;
+    align-items: center;
+    background: tomato;
+    flex-wrap: wrap;
+    justify-content:center;
+
+
+}
+
+.contenedorAlCostado{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background: tomato;
+    height: 150px;
+    justify-content: flex-start;
+    align-content: flex-start;
+
+
+    
+}
+/* Código de las cajas Cajas*/
+
+.caja{
+    width: 300px ;
+    border: 2px solid grey;
+     text-align: center;
+     color: white;
+     padding: 5px 0px;
+
+
+}
+
+
+.box1{ background-color: #5a55d4;}
+.box2{ background-color: #635ddd;}
+.box3{ background-color: #6d64e6;}
+.box4{ background-color: #766cef;}
+.box5{ background-color: #7f74f8;}
+.box6{ background-color: #887cff;}
+.box7{ background-color: #9183ff}
+
+/*https://encycolorpedia.es/
+*/
+
